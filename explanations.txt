@@ -1,4 +1,30 @@
-OPERATING SYSTEMS ASSIGNMENT 2 - ANSWERS
+ ANSWERS
+EXERCISE 1:
+1. Process Creation (fork)
+
+Child process: Returns 0
+
+Parent process: Returns Child PID
+
+Error: Returns -1
+
+2. Background Processes
+
+Add & to the end of the command.
+
+Syntax: command &
+
+3. Stopping a Process
+
+Find PID: ps aux | grep name
+
+Kill: kill <PID>
+
+4. Pause and Resume
+
+Pause: kill -STOP <PID>
+
+Resume: kill -CONT <PID>
 
 QUESTION: What is the job of the Linker?
 
